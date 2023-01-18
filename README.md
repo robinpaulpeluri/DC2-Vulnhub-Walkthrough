@@ -57,7 +57,7 @@ so we can see it its a worpress site in nmap result.
 
 
 
-As per the hint in the flag1 we have to create a new passwd list from website by CEWL tool
+As per the hint in the flag1 we have to create a new passwd list pass.txt from website by CEWL tool
 
 #### cewl http://dc-2/ -w pass.txt
 
@@ -66,7 +66,23 @@ As per the hint in the flag1 we have to create a new passwd list from website by
 
 So as we know its a wordpress website obviously lets run WPSCAN tool 
 
+wpscan --url http://dc2/ -e
+
 ![Screenshot from 2023-01-19 02-24-39](https://user-images.githubusercontent.com/108471951/213292503-55fb0cf3-8a42-4d33-887d-31cfed6f06ac.png)
 
+
+After enumerateing we found the users [admin, jerry, tom]   
+
+
+ ![Screenshot from 2023-01-19 02-27-22](https://user-images.githubusercontent.com/108471951/213293686-6845895d-6360-4c74-9e5b-fcf8365bc5ab.png)
  
+ 
+
+Then make a File users.txt with the user names we found 
+
+#### Bruteforce
+
+wpscan --url http://dc2/ -U user.txt -P pass.txt
+
+
  
