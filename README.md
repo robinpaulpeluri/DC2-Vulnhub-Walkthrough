@@ -21,15 +21,15 @@ And again, just like with DC-1, the flags are important for beginners, but not s
   
 Sudo netdiscover
 
-Found the IP 192.168.0.131 
 
 ![Screenshot from 2023-01-19 01-55-20](https://user-images.githubusercontent.com/108471951/213287257-c109721a-ccfa-4bd8-aea1-f42411a9f400.png)
 
+Found the IP 192.168.0.131 
 
 
 Firstly we have to identify the machine IP address using tool like NetDiscover 
 
-###Nmap
+### Nmap
 
 nmap -sC -sV -p- 192.168.0.131
 
@@ -39,11 +39,11 @@ nmap -sC -sV -p- 192.168.0.131
 so we can see it its a worpress site in nmap result.
 
 
-##### http
-edit the /etc/host by giving the target ip and then visit the website.
+#### http
+#### Edit the /etc/host by giving the target ip and then visit the website.
 
 
- By searching the ip in browser ,we can see in website footer its mentioned it is a wordpress website.
+ By searching the Ip in browser ,we can see in website footer its mentioned it is a wordpress website.
 
 ![Screenshot from 2023-01-16 17-00-08](https://user-images.githubusercontent.com/108471951/213288183-7462e484-ff1c-4f78-b14a-70669e3c415b.png)
 
@@ -62,3 +62,11 @@ As per the hint in the flag1 we have to create a new passwd list from website by
 #### cewl http://dc-2/ -w pass.txt
 
 ![Screenshot from 2023-01-19 02-17-57](https://user-images.githubusercontent.com/108471951/213291277-1f52d69a-ceca-4e99-b21d-99d1a7fed806.png)
+
+
+So as we know its a wordpress website obviously lets run WPSCAN tool 
+
+![Screenshot from 2023-01-19 02-24-39](https://user-images.githubusercontent.com/108471951/213292503-55fb0cf3-8a42-4d33-887d-31cfed6f06ac.png)
+
+ 
+ 
