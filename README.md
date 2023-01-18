@@ -19,7 +19,7 @@ And again, just like with DC-1, the flags are important for beginners, but not s
   
   ### Reconnaissance 
   
-Sudo NetDiscover
+Sudo netdiscover
 
 Found the IP 192.168.0.131 
 
@@ -39,13 +39,26 @@ nmap -sC -sV -p- 192.168.0.131
 so we can see it its a worpress site in nmap result.
 
 
+##### http
+edit the /etc/host by giving the target ip and then visit the website.
+
+
  By searching the ip in browser ,we can see in website footer its mentioned it is a wordpress website.
 
 ![Screenshot from 2023-01-16 17-00-08](https://user-images.githubusercontent.com/108471951/213288183-7462e484-ff1c-4f78-b14a-70669e3c415b.png)
 
 
-In website We found a Flag1
+
+
+#### In website We found Flag1
 
 
 ![Screenshot from 2023-01-16 17-01-22](https://user-images.githubusercontent.com/108471951/213289621-ccb28013-29c2-4dbf-a771-0626321c8454.png)
 
+
+
+As per the hint in the flag1 we have to create a new passwd list from website by CEWL tool
+
+#### cewl http://dc-2/ -w pass.txt
+
+![Screenshot from 2023-01-19 02-17-57](https://user-images.githubusercontent.com/108471951/213291277-1f52d69a-ceca-4e99-b21d-99d1a7fed806.png)
