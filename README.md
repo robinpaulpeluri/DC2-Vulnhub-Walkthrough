@@ -136,12 +136,15 @@ So I used vim trick
 
 
 
-
-
-
 now its given us a shell but some commands are not working like id,cat. This could mean that /bin/sh might be missing from the PATH.   
 
 so lets fix it by command 
+
+
+![Screenshot from 2023-01-20 00-40-13](https://user-images.githubusercontent.com/108471951/213538403-3e9adbb4-7514-4c9d-892f-4a5576381e11.png)
+
+
+
 
 export PATH=/bin:/usr/bin
 
