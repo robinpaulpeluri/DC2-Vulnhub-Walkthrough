@@ -56,8 +56,7 @@ so we can see it its a worpress site in nmap result.
 ![Screenshot from 2023-01-16 17-01-22](https://user-images.githubusercontent.com/108471951/213289621-ccb28013-29c2-4dbf-a771-0626321c8454.png)
 
 
-
-As per the hint in the flag1 we have to create a new passwd list pass.txt from website by CEWL tool
+According to the hint flag1 we have to create a new passwd list pass.txt from website by CEWL tool
 
 #### cewl http://dc-2/ -w pass.txt
 
@@ -103,7 +102,7 @@ After login using jerry's credentials I found a page called flag-2
 ### Privilege Escalation
 
 
-flag2 saying there is another entry point. so as we know the SSH port 7744 open lets enter through it
+according to the hint flag2 there is another entry point. so as we know the SSH port 7744 open lets enter through it
 
 After using tom credentials I got the Accese
 
@@ -128,3 +127,37 @@ So I used vim trick
     ![Screenshot from 2023-01-19 23-58-42](https://user-images.githubusercontent.com/108471951/213529789-b7f7bbf0-d44a-49f3-8b40-ce331f5f1a0f.png)
 
     
+    ![Screenshot from 2023-01-20 00-03-58](https://user-images.githubusercontent.com/108471951/213530831-537109a3-572b-4c75-b89f-edd9dabe8c15.png)
+
+
+now its given us a shell but some commands are not working like id,cat. This could mean that /bin/sh might be missing from the PATH.   
+
+so lets fix it by command 
+
+export PATH=/bin:/usr/bin
+
+![Screenshot from 2023-01-20 00-03-58](https://user-images.githubusercontent.com/108471951/213532707-6a2699b5-49f8-4c9b-be87-8ab8033929a5.png)
+
+ls
+cat flag3.txt
+
+![Screenshot from 2023-01-20 00-16-26](https://user-images.githubusercontent.com/108471951/213533103-6c4b779a-15d7-4854-b21e-aa01d8d145bc.png)
+
+
+we found flag3 according to the hint we need to switch user from tom to jerry since we have jerry password we can easily switch to jerry
+
+cd home
+
+ls
+
+
+![Screenshot from 2023-01-20 00-29-14](https://user-images.githubusercontent.com/108471951/213535545-d71b9554-e180-435a-9b64-f9029207b3bd.png)
+
+
+we found jerry 
+
+cd 
+
+
+
+
