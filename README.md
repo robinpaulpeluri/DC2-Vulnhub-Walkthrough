@@ -156,8 +156,21 @@ ls
 
 we found jerry 
 
-cd 
+cd jerry
+
+ls
+
+cat flag4.txt
 
 
+![Screenshot from 2023-01-20 00-27-29](https://user-images.githubusercontent.com/108471951/213536148-d1b709b4-b8c1-4944-ade8-e1030060b911.png)
+
+succesfully we have found the final flag.
+
+
+
+
+@robinpaul
+#robinpaul
 
 
