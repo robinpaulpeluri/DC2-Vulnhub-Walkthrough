@@ -160,7 +160,13 @@ cat flag3.txt
 ![Screenshot from 2023-01-20 00-16-26](https://user-images.githubusercontent.com/108471951/213533103-6c4b779a-15d7-4854-b21e-aa01d8d145bc.png)
 
 
-we found flag3 according to the hint we need to switch user from tom to jerry since we have jerry password we can easily switch to jerry
+we found flag3 according to the hint we need to switch user from tom to jerry since we have jerry password we can easily switch to jerry.
+
+
+
+
+
+
 
 cd home
 
@@ -170,7 +176,7 @@ ls
 ![Screenshot from 2023-01-20 00-29-14](https://user-images.githubusercontent.com/108471951/213535545-d71b9554-e180-435a-9b64-f9029207b3bd.png)
 
 
-we found jerry 
+we found jerry.
 
 
 
