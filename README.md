@@ -117,14 +117,14 @@ So I used vim trick
 
     run vi
 
-    :set shell=/bin/sh
+    :set shell=/bin/sh       .
     
     
     ![Screenshot from 2023-01-19 23-58-23](https://user-images.githubusercontent.com/108471951/213529695-f5ef08b7-9e73-4c2e-8249-794fbbe5ece1.png)
     
     
 
- :shell
+ :shell              .
  
  
 
