@@ -50,7 +50,7 @@ so we can see it its a worpress site in nmap result.
 
 
 
-#### In website We found Flag1
+#### In website there is page Flag and in that I found a Flag1
 
 
 ![Screenshot from 2023-01-16 17-01-22](https://user-images.githubusercontent.com/108471951/213289621-ccb28013-29c2-4dbf-a771-0626321c8454.png)
@@ -87,19 +87,23 @@ wpscan --url http://dc2/ -U user.txt -P pass.txt
 
 ![Screenshot from 2023-01-19 23-25-28](https://user-images.githubusercontent.com/108471951/213522815-24944e6b-fb8e-4127-85d8-2a7f245128df.png)
 
-Now we found the passwords for user jerry,tom so lets login to wordpress website using this credntials 
+Now we found the passwords for user jerry,tom so lets login to wordpress website using this credntials
+
 
 http://dc2/wp-login.php
 
 Now lets search for the flags 
 
+After login using jerry's credentials I found a page called flag-2
+
 
 ![Screenshot from 2023-01-16 22-06-11](https://user-images.githubusercontent.com/108471951/213524065-7f9c3c4f-5397-4afe-bc39-ab1e8b06b5e5.png)
 
 
-we found a flag2 in pages ,its saying there is another entry point. so as we know the SSH port 7744 open lets enter through it
+flag2 saying there is another entry point. so as we know the SSH port 7744 open lets enter through it
 
 
 ![Screenshot from 2023-01-19 23-36-35](https://user-images.githubusercontent.com/108471951/213525130-600071c3-76db-411b-ac89-66cc4bb0800f.png)
+
 
 
