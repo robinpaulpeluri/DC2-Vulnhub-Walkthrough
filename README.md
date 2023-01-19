@@ -121,10 +121,17 @@ So I used vim trick
     
     
     ![Screenshot from 2023-01-19 23-58-23](https://user-images.githubusercontent.com/108471951/213529695-f5ef08b7-9e73-4c2e-8249-794fbbe5ece1.png)
+    
+    
 
  :shell
+ 
+ 
 
     ![Screenshot from 2023-01-19 23-58-42](https://user-images.githubusercontent.com/108471951/213529789-b7f7bbf0-d44a-49f3-8b40-ce331f5f1a0f.png)
+    
+    
+    
 
     
     ![Screenshot from 2023-01-20 00-03-58](https://user-images.githubusercontent.com/108471951/213530831-537109a3-572b-4c75-b89f-edd9dabe8c15.png)
