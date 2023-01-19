@@ -117,21 +117,24 @@ So I used vim trick
 
     run vi
 
-    :set shell=/bin/sh       .
+    :set shell=/bin/sh       
     
     
-    ![Screenshot from 2023-01-19 23-58-23](https://user-images.githubusercontent.com/108471951/213529695-f5ef08b7-9e73-4c2e-8249-794fbbe5ece1.png)
+  ![Screenshot from 2023-01-19 23-58-23](https://user-images.githubusercontent.com/108471951/213537479-15721eaf-8f9d-462e-add4-70688078789d.png)
+
     
     
 
- :shell              .
+ :shell              
  
  
 
-    ![Screenshot from 2023-01-19 23-58-42](https://user-images.githubusercontent.com/108471951/213529789-b7f7bbf0-d44a-49f3-8b40-ce331f5f1a0f.png)
+   ![Screenshot from 2023-01-19 23-58-42](https://user-images.githubusercontent.com/108471951/213537540-c5e80d2b-c506-4639-8a75-742a0a654dba.png)
+
     
     
-    
+    ![Screenshot from 2023-01-20 00-40-13](https://user-images.githubusercontent.com/108471951/213537744-00a66e87-bc42-4206-a828-4897deff9c1e.png)
+
 
     
     ![Screenshot from 2023-01-20 00-03-58](https://user-images.githubusercontent.com/108471951/213530831-537109a3-572b-4c75-b89f-edd9dabe8c15.png)
