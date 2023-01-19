@@ -132,14 +132,9 @@ So I used vim trick
    ![Screenshot from 2023-01-19 23-58-42](https://user-images.githubusercontent.com/108471951/213537540-c5e80d2b-c506-4639-8a75-742a0a654dba.png)
 
     
-    
-    ![Screenshot from 2023-01-20 00-40-13](https://user-images.githubusercontent.com/108471951/213537744-00a66e87-bc42-4206-a828-4897deff9c1e.png)
+   
 
 
------------
-    
-    
-    ![Screenshot from 2023-01-20 00-40-13](https://user-images.githubusercontent.com/108471951/213537928-6a99bba0-ca73-445d-819e-6e9b2d5d3345.png)
 
 
 
