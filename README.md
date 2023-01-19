@@ -100,10 +100,31 @@ After login using jerry's credentials I found a page called flag-2
 ![Screenshot from 2023-01-16 22-06-11](https://user-images.githubusercontent.com/108471951/213524065-7f9c3c4f-5397-4afe-bc39-ab1e8b06b5e5.png)
 
 
+### Privilege Escalation
+
+
 flag2 saying there is another entry point. so as we know the SSH port 7744 open lets enter through it
+
+After using tom credentials I got the Accese
+
+shh tom@192.168.0.131 -p 7744
 
 
 ![Screenshot from 2023-01-19 23-36-35](https://user-images.githubusercontent.com/108471951/213525130-600071c3-76db-411b-ac89-66cc4bb0800f.png)
 
+we can see ID command not worked and its restried -rbash shell we have to bypass it 
 
+So I used vim trick 
 
+    run vi
+
+    :set shell=/bin/sh
+    
+    
+    ![Screenshot from 2023-01-19 23-58-23](https://user-images.githubusercontent.com/108471951/213529695-f5ef08b7-9e73-4c2e-8249-794fbbe5ece1.png)
+
+ :shell
+
+    ![Screenshot from 2023-01-19 23-58-42](https://user-images.githubusercontent.com/108471951/213529789-b7f7bbf0-d44a-49f3-8b40-ce331f5f1a0f.png)
+
+    
