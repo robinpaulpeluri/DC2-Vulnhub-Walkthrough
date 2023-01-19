@@ -136,8 +136,12 @@ So I used vim trick
     ![Screenshot from 2023-01-20 00-40-13](https://user-images.githubusercontent.com/108471951/213537744-00a66e87-bc42-4206-a828-4897deff9c1e.png)
 
 
+-----------
     
-    ![Screenshot from 2023-01-20 00-03-58](https://user-images.githubusercontent.com/108471951/213530831-537109a3-572b-4c75-b89f-edd9dabe8c15.png)
+    
+    ![Screenshot from 2023-01-20 00-40-13](https://user-images.githubusercontent.com/108471951/213537928-6a99bba0-ca73-445d-819e-6e9b2d5d3345.png)
+
+
 
 
 now its given us a shell but some commands are not working like id,cat. This could mean that /bin/sh might be missing from the PATH.   
