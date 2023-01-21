@@ -99,7 +99,7 @@ After login using jerry's credentials I found a page called flag-2
 ![Screenshot from 2023-01-16 22-06-11](https://user-images.githubusercontent.com/108471951/213524065-7f9c3c4f-5397-4afe-bc39-ab1e8b06b5e5.png)
 
 
-### Privilege Escalation
+## Privilege Escalation
 
 
 according to the hint flag2 there is another entry point. so as we know the SSH port 7744 open lets enter through it
