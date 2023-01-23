@@ -119,7 +119,7 @@ we can see ID command not worked and its restried -rbash shell we have to bypass
 
 So I used vim trick 
 
-    run vi
+     vi
 
     :set shell=/bin/sh       
     
