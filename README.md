@@ -222,11 +222,20 @@ sudo git help add
 
 ![Screenshot from 2023-01-25 02-43-24](https://user-images.githubusercontent.com/108471951/214418107-990e7978-b5b7-4676-afb1-be4639b18312.png)
 
+
+
+
+
 now we can go to root folder 
 
+
 cd /root
+
 ls
+
 cat final-flag.txt
+
+
 
 
 ![Screenshot from 2023-01-25 02-44-31](https://user-images.githubusercontent.com/108471951/214418585-3070f7cd-44b3-4b35-8492-3af0446a6510.png)
