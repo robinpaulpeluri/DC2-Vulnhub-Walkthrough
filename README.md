@@ -19,15 +19,16 @@ And again, just like with DC-1, the flags are important for beginners, but not s
   
   ### Reconnaissance 
   
-Sudo netdiscover
+Firstly we have to identify the machine IP address using tool like NetDiscover 
 
+  
+Sudo netdiscover
 
 ![Screenshot from 2023-01-19 01-55-20](https://user-images.githubusercontent.com/108471951/213287257-c109721a-ccfa-4bd8-aea1-f42411a9f400.png)
 
 Found the IP 192.168.0.131 
 
 
-Firstly we have to identify the machine IP address using tool like NetDiscover 
 
 ### Nmap
 
@@ -243,7 +244,7 @@ cat final-flag.txt
 
 
 
-succesfully we have found the final flag.
+succesfully I have found the final flag.
 
 
 
