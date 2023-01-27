@@ -41,7 +41,9 @@ so we can see it its a worpress site in nmap result.
 
 
 #### http
-#### Edit the /etc/host by giving the target ip and then visit the website.
+
+mousepad /etc/hosts
+#### Edit the /etc/hosts by giving the target ip and then visit the website.
 
 
  By searching the Ip in browser ,we can see in website footer its mentioned it is a wordpress website.
